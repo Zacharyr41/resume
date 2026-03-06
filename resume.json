@@ -1,0 +1,193 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Zachary Rothstein",
+    "label": "Career Transition – Software Engineering to Healthcare",
+    "email": "zacharyr41@gmail.com",
+    "phone": "(718) 704-3243",
+    "location": {
+      "address": "792 Columbus Ave, Unit 15P",
+      "city": "New York",
+      "region": "NY",
+      "postalCode": "10025"
+    },
+    "summary": "Current ophthalmic technician intern with 2+ years as a software engineer and strong skills in documentation, client communication, and process improvement. Actively seeking clinical healthcare positions while completing certifications in EKG technology, phlebotomy, and medical assisting."
+  },
+  "education": [
+    {
+      "institution": "The University of Chicago",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Science",
+      "startDate": "2020-09-01",
+      "endDate": "2024-06-01",
+      "score": "3.92/4.00",
+      "honors": "Magna Cum Laude",
+      "highlights": [
+        "Minor: Religious Studies",
+        "Dean's List 2020-2022",
+        "Robert Maynard Hutchins Scholar 2020-2022"
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Basic Life Support (BLS)",
+      "issuer": "American Heart Association",
+      "status": "current"
+    },
+    {
+      "name": "EKG Technician Certification",
+      "issuer": "NHA",
+      "status": "in_progress",
+      "expectedDate": "2026-04-01"
+    },
+    {
+      "name": "Phlebotomy Certification",
+      "issuer": "NHA",
+      "status": "in_progress",
+      "expectedDate": "2026-04-01"
+    },
+    {
+      "name": "Certified Medical Assistant (CMA)",
+      "issuer": "NHA",
+      "status": "in_progress",
+      "expectedDate": "2026-04-01",
+      "notes": "NHA exam candidate"
+    }
+  ],
+  "work": [
+    {
+      "name": "Eyenamics NY",
+      "position": "Ophthalmic Technician Intern",
+      "startDate": "2026-02-01",
+      "endDate": null,
+      "type": "clinical_internship",
+      "highlights": [
+        "Conduct patient intake interviews and document histories for 15-20 patients daily",
+        "Scribe physician notes in real time",
+        "Perform OCT scans, visual field tests, and color vision assessments",
+        "Process clinical orders through the EHR system"
+      ]
+    },
+    {
+      "name": "Dr. Harold Klestzick",
+      "position": "Clinical Shadowing - Cardiology",
+      "startDate": "2026-02-01",
+      "endDate": "2026-02-28",
+      "type": "shadowing",
+      "highlights": [
+        "Conducted dozens of ECGs in a cardiology clinical setting",
+        "Recorded clinical notes and observed patient interactions"
+      ]
+    },
+    {
+      "name": "NYP Columbia University Irving Medical Center",
+      "position": "Patient Care Volunteer - Golden Spoons Program",
+      "startDate": "2026-01-01",
+      "endDate": null,
+      "type": "volunteer",
+      "schedule": "weekends",
+      "department": "Neurology Inpatient & Neurology ICU",
+      "highlights": [
+        "Provide direct face-to-face patient support during mealtimes in neurology inpatient and ICU units",
+        "Assist patients in meeting nutrition goals",
+        "Coordinate with clinical staff to respond to individual patient needs"
+      ]
+    },
+    {
+      "name": "Crisis Text Line",
+      "position": "Volunteer Crisis Counselor",
+      "startDate": "2026-01-01",
+      "endDate": null,
+      "type": "volunteer",
+      "schedule": "weekends",
+      "highlights": [
+        "Provide real-time text-based crisis intervention support utilizing active listening, collaborative problem-solving, and safety planning",
+        "Completed 15+ hours of supervised training in de-escalation and crisis management"
+      ]
+    },
+    {
+      "name": "Mechanical Orchard",
+      "position": "Software Engineer I",
+      "startDate": "2024-09-01",
+      "endDate": "2026-02-01",
+      "type": "full_time",
+      "location": "Remote",
+      "highlights": [
+        "Delivered real-time web applications and gRPC services supporting 20+ users",
+        "Architected framework solutions and owned CI/CD pipelines while migrating 50+ legacy batch jobs to modern cloud-native architectures",
+        "Transformed 50+ CICS mainframe screens into modern web interfaces",
+        "Regularly interfaced with client stakeholders to gather requirements and provide updates"
+      ]
+    },
+    {
+      "name": "Google Maps",
+      "position": "Software Engineering Intern",
+      "startDate": "2023-06-01",
+      "endDate": "2023-09-01",
+      "type": "internship",
+      "location": "New York, NY",
+      "highlights": [
+        "Analyzed developer workflows for 3,000+ individuals and implemented QA testing fixes increasing developer velocity across the org",
+        "Collaborated on hybrid teams, writing clear documentation, engaging in regular meetings, and integrating teammate feedback"
+      ]
+    },
+    {
+      "name": "Google Ads",
+      "position": "Software Engineering Intern (STEP)",
+      "startDate": "2022-06-01",
+      "endDate": "2022-09-01",
+      "type": "internship",
+      "location": "Mountain View, CA",
+      "highlights": [
+        "Automated UI troubleshooting notifications supporting 10,000+ users at the intersection of Ads and Search, driving high-impact improvements to revenue-critical workflows on a large cross-functional team"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "organization": "University of Chicago",
+      "position": "Teaching Assistant",
+      "courses": ["Introduction to Computer Security", "Introduction to Databases"],
+      "startDate": "2023-01-01",
+      "endDate": "2024-06-01",
+      "hoursPerWeek": 15,
+      "location": "Chicago, IL",
+      "highlights": [
+        "Debugged student code, clarified complex concepts during Office Hours and Discussion sections",
+        "Graded assignments for 100+ students"
+      ]
+    },
+    {
+      "organization": "Department of Computer Science, University of Chicago",
+      "position": "Student Researcher",
+      "startDate": "2023-01-01",
+      "endDate": "2024-06-01",
+      "hoursPerWeek": 5,
+      "location": "Chicago, IL",
+      "highlights": [
+        "Wrote code, documentation, and Jupyter Notebooks supporting research in Computer Security, Privacy, and Machine Learning",
+        "Implemented featurization for a research ML classifier",
+        "Worked with electronic health record (EHR) datasets, gaining hands-on familiarity with clinical data structures and healthcare data privacy considerations"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Clinical",
+      "keywords": ["EHR/EMR systems", "Patient intake & history-taking", "Clinical scribing", "Diagnostic imaging (OCT, visual fields)", "ECG/EKG", "Phlebotomy (in progress)", "HIPAA awareness", "Data privacy"]
+    },
+    {
+      "name": "Technical",
+      "keywords": ["gRPC", "CI/CD pipelines", "Cloud-native architecture", "Web applications", "Mainframe migration", "Python", "Jupyter Notebooks", "Machine Learning"]
+    },
+    {
+      "name": "Interpersonal",
+      "keywords": ["Patient communication", "Client stakeholder management", "Documentation", "Teaching", "Crisis intervention", "Active listening"]
+    },
+    {
+      "name": "Tools",
+      "keywords": ["Microsoft Office", "Google Workspace"]
+    }
+  ]
+}

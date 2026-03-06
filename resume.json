@@ -2,16 +2,17 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Zachary Rothstein",
-    "label": "Career Transition – Software Engineering to Healthcare",
+    "label": "Clinical Healthcare | Career Transition from Software Engineering",
     "email": "zacharyr41@gmail.com",
     "phone": "(718) 704-3243",
     "location": {
       "address": "792 Columbus Ave, Unit 15P",
       "city": "New York",
       "region": "NY",
-      "postalCode": "10025"
+      "postalCode": "10025",
+      "countryCode": "US"
     },
-    "summary": "Current ophthalmic technician intern with 2+ years as a software engineer and strong skills in documentation, client communication, and process improvement. Actively seeking clinical healthcare positions while completing certifications in EKG technology, phlebotomy, and medical assisting."
+    "summary": "Current ophthalmic technician intern with 2+ years as a software engineer and strong skills in documentation, client communication, and process improvement. Completing certifications in EKG technology, phlebotomy, and medical assisting (NHA CMA exam candidate, April 2026)."
   },
   "education": [
     {
@@ -21,38 +22,33 @@
       "startDate": "2020-09-01",
       "endDate": "2024-06-01",
       "score": "3.92/4.00",
-      "honors": "Magna Cum Laude",
-      "highlights": [
+      "courses": [
         "Minor: Religious Studies",
         "Dean's List 2020-2022",
-        "Robert Maynard Hutchins Scholar 2020-2022"
+        "Robert Maynard Hutchins Scholar 2020-2022",
+        "Magna Cum Laude"
       ]
     }
   ],
   "certificates": [
     {
       "name": "Basic Life Support (BLS)",
-      "issuer": "American Heart Association",
-      "status": "current"
+      "issuer": "American Heart Association"
     },
     {
-      "name": "EKG Technician Certification",
+      "name": "EKG Technician Certification (In Progress)",
       "issuer": "NHA",
-      "status": "in_progress",
-      "expectedDate": "2026-04-01"
+      "date": "2026-04-01"
     },
     {
-      "name": "Phlebotomy Certification",
+      "name": "Phlebotomy Certification (In Progress)",
       "issuer": "NHA",
-      "status": "in_progress",
-      "expectedDate": "2026-04-01"
+      "date": "2026-04-01"
     },
     {
-      "name": "Certified Medical Assistant (CMA)",
+      "name": "Certified Medical Assistant - CMA (In Progress, NHA Exam Candidate)",
       "issuer": "NHA",
-      "status": "in_progress",
-      "expectedDate": "2026-04-01",
-      "notes": "NHA exam candidate"
+      "date": "2026-04-01"
     }
   ],
   "work": [
@@ -60,8 +56,6 @@
       "name": "Eyenamics NY",
       "position": "Ophthalmic Technician Intern",
       "startDate": "2026-02-01",
-      "endDate": null,
-      "type": "clinical_internship",
       "highlights": [
         "Conduct patient intake interviews and document histories for 15-20 patients daily",
         "Scribe physician notes in real time",
@@ -70,40 +64,13 @@
       ]
     },
     {
-      "name": "Dr. Harold Klestzick",
-      "position": "Clinical Shadowing - Cardiology",
+      "name": "Dr. Harold Klestzick - Cardiology",
+      "position": "Clinical Shadowing",
       "startDate": "2026-02-01",
       "endDate": "2026-02-28",
-      "type": "shadowing",
       "highlights": [
         "Conducted dozens of ECGs in a cardiology clinical setting",
         "Recorded clinical notes and observed patient interactions"
-      ]
-    },
-    {
-      "name": "NYP Columbia University Irving Medical Center",
-      "position": "Patient Care Volunteer - Golden Spoons Program",
-      "startDate": "2026-01-01",
-      "endDate": null,
-      "type": "volunteer",
-      "schedule": "weekends",
-      "department": "Neurology Inpatient & Neurology ICU",
-      "highlights": [
-        "Provide direct face-to-face patient support during mealtimes in neurology inpatient and ICU units",
-        "Assist patients in meeting nutrition goals",
-        "Coordinate with clinical staff to respond to individual patient needs"
-      ]
-    },
-    {
-      "name": "Crisis Text Line",
-      "position": "Volunteer Crisis Counselor",
-      "startDate": "2026-01-01",
-      "endDate": null,
-      "type": "volunteer",
-      "schedule": "weekends",
-      "highlights": [
-        "Provide real-time text-based crisis intervention support utilizing active listening, collaborative problem-solving, and safety planning",
-        "Completed 15+ hours of supervised training in de-escalation and crisis management"
       ]
     },
     {
@@ -111,8 +78,6 @@
       "position": "Software Engineer I",
       "startDate": "2024-09-01",
       "endDate": "2026-02-01",
-      "type": "full_time",
-      "location": "Remote",
       "highlights": [
         "Delivered real-time web applications and gRPC services supporting 20+ users",
         "Architected framework solutions and owned CI/CD pipelines while migrating 50+ legacy batch jobs to modern cloud-native architectures",
@@ -125,7 +90,6 @@
       "position": "Software Engineering Intern",
       "startDate": "2023-06-01",
       "endDate": "2023-09-01",
-      "type": "internship",
       "location": "New York, NY",
       "highlights": [
         "Analyzed developer workflows for 3,000+ individuals and implemented QA testing fixes increasing developer velocity across the org",
@@ -137,49 +101,63 @@
       "position": "Software Engineering Intern (STEP)",
       "startDate": "2022-06-01",
       "endDate": "2022-09-01",
-      "type": "internship",
       "location": "Mountain View, CA",
       "highlights": [
         "Automated UI troubleshooting notifications supporting 10,000+ users at the intersection of Ads and Search, driving high-impact improvements to revenue-critical workflows on a large cross-functional team"
       ]
-    }
-  ],
-  "leadership": [
+    },
     {
-      "organization": "University of Chicago",
+      "name": "University of Chicago - Intro to Computer Security & Intro to Databases",
       "position": "Teaching Assistant",
-      "courses": ["Introduction to Computer Security", "Introduction to Databases"],
       "startDate": "2023-01-01",
       "endDate": "2024-06-01",
-      "hoursPerWeek": 15,
-      "location": "Chicago, IL",
       "highlights": [
         "Debugged student code, clarified complex concepts during Office Hours and Discussion sections",
         "Graded assignments for 100+ students"
       ]
     },
     {
-      "organization": "Department of Computer Science, University of Chicago",
+      "name": "Department of Computer Science, University of Chicago",
       "position": "Student Researcher",
       "startDate": "2023-01-01",
       "endDate": "2024-06-01",
-      "hoursPerWeek": 5,
-      "location": "Chicago, IL",
       "highlights": [
         "Wrote code, documentation, and Jupyter Notebooks supporting research in Computer Security, Privacy, and Machine Learning",
         "Implemented featurization for a research ML classifier",
-        "Worked with electronic health record (EHR) datasets, gaining hands-on familiarity with clinical data structures and healthcare data privacy considerations"
+        "Worked with EHR datasets, gaining hands-on familiarity with clinical data structures and healthcare data privacy"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "NYP Columbia University Irving Medical Center",
+      "position": "Patient Care Volunteer - Golden Spoons Program",
+      "startDate": "2026-01-01",
+      "summary": "Neurology Inpatient & Neurology ICU Units (weekends)",
+      "highlights": [
+        "Provide direct face-to-face patient support during mealtimes in neurology inpatient and ICU units",
+        "Assist patients in meeting nutrition goals and coordinate with clinical staff"
+      ]
+    },
+    {
+      "organization": "Crisis Text Line",
+      "position": "Volunteer Crisis Counselor",
+      "startDate": "2026-01-01",
+      "summary": "Weekend volunteer providing remote crisis support",
+      "highlights": [
+        "Provide real-time text-based crisis intervention utilizing active listening, collaborative problem-solving, and safety planning",
+        "Completed 15+ hours of supervised training in de-escalation and crisis management"
       ]
     }
   ],
   "skills": [
     {
       "name": "Clinical",
-      "keywords": ["EHR/EMR systems", "Patient intake & history-taking", "Clinical scribing", "Diagnostic imaging (OCT, visual fields)", "ECG/EKG", "Phlebotomy (in progress)", "HIPAA awareness", "Data privacy"]
+      "keywords": ["EHR/EMR systems", "Patient intake & history-taking", "Clinical scribing", "Diagnostic imaging (OCT, visual fields)", "ECG/EKG", "HIPAA awareness", "Data privacy"]
     },
     {
       "name": "Technical",
-      "keywords": ["gRPC", "CI/CD pipelines", "Cloud-native architecture", "Web applications", "Mainframe migration", "Python", "Jupyter Notebooks", "Machine Learning"]
+      "keywords": ["gRPC", "CI/CD pipelines", "Cloud-native architecture", "Web applications", "Python", "Jupyter Notebooks", "Machine Learning"]
     },
     {
       "name": "Interpersonal",
